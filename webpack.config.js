@@ -11,7 +11,6 @@ const globSync = require("glob").sync;
 module.exports = (env, options) => ({
   entry: ["./src/index.js"],
   devServer: {
-    contentBase: "./dist",
   },
   devtool: "source-map",
   module: {
